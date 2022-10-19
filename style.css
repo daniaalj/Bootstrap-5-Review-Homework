@@ -2,13 +2,51 @@ html,
 body {
    height: 100%;
    font-size: 1rem;
+   font-family: 'Quicksand', sans-serif;
 }
 
-gradient {
-    background: rgb(209,20,106);
+.gradient {
+    background: rgb(2,0,36);
     background: linear-gradient(
-        90deg, 
-        rgba(209,20,106,1) 0%,
-        rgba(255,196,29,1) 100%
-    );
+        90deg, rgba(2,0,36,1) 0%, 
+        rgba(6,6,135,1) 18%,
+         rgba(23,23,176,1) 38%, 
+         rgba(9,187,223,1) 97%
+         );
+}
+
+.page-header {
+    margin-top: 8rem;
+    font-size: 1.25rem;
+    color: white; 
+
+}
+
+.feature {
+    color: white;
+
+}
+
+.feature ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.feature ul li {
+    padding-left: 2rem
+    background-image: url(../img/camera.svg)
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.icons {
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
